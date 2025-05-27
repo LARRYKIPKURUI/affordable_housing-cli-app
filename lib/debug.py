@@ -1,13 +1,14 @@
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+from models import Agent, Client, House, Base  
 
-from models import Agent,CLient,House
+# Create engine and session
+engine = create_engine('sqlite:///my_database.db', echo=True)
+Session = sessionmaker(bind=engine)
+session = Session()
 
-#Create Database Connection.
-if __name__ == '__main__':
-    
-    engine = create_engine('sqlite:///my_database.db')
-    Session = sessionmaker(bind=engine)
-    session = Session()
+# Create tables if they don't exist
+Base.metadata.create_all(engine)
+
     
