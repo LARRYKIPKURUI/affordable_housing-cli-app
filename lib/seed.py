@@ -1,4 +1,3 @@
-# seed.py
 from models import Agent, Client, House, AgentClient, Base
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
