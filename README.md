@@ -4,7 +4,7 @@ A command-line interface (CLI) application for managing agents, clients, houses,
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 affordable_housing/
@@ -19,7 +19,7 @@ affordable_housing/
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 1. **Clone the repository**:
    ```bash
@@ -45,7 +45,7 @@ affordable_housing/
 
 ---
 
-## 📋 Features
+##  Features
 
 - -> Add/List/Delete Agents
 - -> Add/List Clients
@@ -56,21 +56,11 @@ affordable_housing/
 
 ---
 
-## 🗃️ Models Overview
+##  Models Overview and Demo Presentation
 
-To Check or Have an overview of the database schema find it  through this link [https://dbdiagram.io/d/Affordable-Housing-683459d46980ade2eb6923b7 ] [Database Schema]
+To Check or Have an overview of the database schema find it  through this link [https://dbdiagram.io/d/Affordable-Housing-683459d46980ade2eb6923b7 ] -> [Database Schema]
 
-- **Agent**
-  - `id`, `agent_name`, `created_at`
 
-- **Client**
-  - `id`, `client_name`, `phone_number`, `email`, `created_at`
-
-- **House**
-  - `id`, `location`, `no_of_rooms`, `amount`, `created_at`
-
-- **Agent_Client** (junction table)
-  - `id`, `agent_id`, `client_id`, `house_id`, `created_at`
-
----
-
+## Demo of How the project works
+Find below the link for a demo made to show the working of the project  
+[https://www.loom.com/share/c10c70a825f14b2cabb813fe5b0639e7?sid=507a3c89-e1e8-427b-9d04-7d0dca3c0975] -> [Demo ]
